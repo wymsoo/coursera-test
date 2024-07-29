@@ -1,11 +1,243 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>
-		Hello Coursera
+		SOO CHUN WAH Table Tennis Training Center
 	</title>
+<link rel="stylesheet" href="style.css">
+<style>
+
+	* {
+	box-sizing: border-box;
+	}	
+
+
+	body{
+		background-image: url(https://static.vecteezy.com/system/resources/previews/000/664/710/original/vector-abstract-technology-background-hi-tech-communication-digital-background.jpg);
+      	background-size: cover;
+      	background-repeat: no-repeat;
+      	background-position: center;
+      	height: 100vh;
+      	margin: 0;
+		box-sizing:border-box;
+		padding: 10px;
+		font-family:sans-serif;
+		color:white;
+		font-size: 24px;
+	}
+
+
+
+	h2{
+		color: white;
+		font-style: italic;
+	}
+
+	h2 p{
+		color: pink;
+	}
+
+	a:link, a:visited {
+		color:pink;
+	}
+
+	a: hover {
+		color: red;
+	}
+
+
+
+	@media (min-width: 1100px){
+
+	.mainSection {
+  	display: flex;
+  	flex-direction: row;
+  	gap: 20px;
+  	margin-bottom: 60px;
+	}
+
+	.mainSection div{
+		padding: 10px;
+		width: 33%; 
+		float: left;
+		margin-botton:30px;
+		}
+
+
+	#mainpic {
+		width: 100%;
+		height: 400;
+	}
+	
+	#mainpic p {
+		float: left;
+		width:50%;
+		margin: 0;
+		}
+
+	}	
+
+	@media (max-width: 1099px){
+
+	.mainSection div{
+		width: 50%; 
+		float: left;
+		}
+
+	#mainpic {
+		width: 100%;
+		height: 800;
+	}
+
+	#mainpic p{
+		width: 100%;
+		height:400px;
+		}
+
+
+	}
+
+	.coaches #name{
+		font-size: 26px;
+		font-weight: bold;
+		margin: 0;
+	}
+
+
+	#container {
+		height:8%;
+		background-color: navy;
+		color: white;
+		float: right;
+		margin: 0;
+		font-size: 16px;
+	}
+
+
+	#heading {
+		color: white;
+		font: 26px;
+		padding:10px;
+		height: 30px;
+		font-weight: bold;
+	}
+
+	#coach1, #coach3 {
+		background-color: orange;
+		color: white;
+		height: 200px;
+		width: 100%;
+		padding:10px;
+	}
+
+	#coach2 {
+		background-color: navy;
+		color: white;
+		height: 200px;
+		width: 100%;
+		padding:10px;
+	}
+
+	#pics {
+		float: right;
+		box-sizing: border-box;
+	}
+
+	#intro {
+		display: inline-block;
+		float: left;
+		width: 50%;
+		vertical-align: middle;
+	}
+
+	#coachpic {
+		display: inline-block;
+		float: right;
+		vertical-align: middle;
+
+	}
+
+</style>
 </head>
+
 <body>
-<h1>Hi Coursera. It's a great course!</h1>
+
+<h1 id="box"> 
+	<div>Soo Chun Wah </div>
+	<div>Table Tennis Training Center</div>
+</h1>
+	<div id="mainpic">
+		<p><img src="https://stillmedab.olympic.org/media/Photos/2016/08/17/part-1/17-08-2016-Table-Tennis-Team-Men-08.jpg?interpolation=lanczos-none&resize=*:1600,%20https://stillmedab.olympic.org/media/Photos/2016/08/17/part-1/17-08-2016-Table-Tennis-Team-Men-08.jpg?interpolation=lanczos-none&resize=*:3200%202x" height=350px margin=0 padding=100px></p>
+		<p><img src="https://hkust.edu.hk/sites/default/files/2022-03/minnie1_2.jpg?itok=A70tGxy1" height=350px margin=0 padding=100px></p>
+	</div>
+<div>
+<div id="section2">
+	<h2> Introduction </h2>
+		<div>
+		<p style="color: white; font-weight: bold">Soo Chun Wah is a prestigious table tennis school located in Kowloon Tong. It nurtured over 
+			<a href="extlink.html" color=purple> 30 students </a> 
+		who represented Hong Kong in international competitions.
+		</p>
+		</div>
+</div>
+
+<h3 style="color: navy; text-align: center; font-size: 60px; font-weight: bold;"> Welcome! </h3>
+	<div class="mainSection">
+		<div>
+			<p id="heading" style="color: navy"> Our Classes: </p>
+			<li>Age 3-5 </li>
+			<li> Age 6-12 </li>
+			<li> Age 12-18 </li>
+			<li> Adults </li>
+		</div>
+		<div>
+			<p id="heading" style="color: red;"> Highlights </p>
+			<iframe width="384" height="216" src="https://www.youtube.com/embed/EQEdmHuXVkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+			<iframe width="384" height="216" src="https://www.youtube.com/embed/06b6tXpD4SQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+			<iframe width="384" height="216" src="https://www.youtube.com/embed/hq8bbLjv_qk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+		</div>
+		<div class="coaches" id="container"> 
+			<p id="heading" style="background-color: transparent;"> Our Coaches: </p>
+
+			<div id="coach1">
+				<p id="name"> Soo Chun Wah </p>
+				<p id="intro">Soo Chun Wah is an experienced coach who has nurtured over 20 players who represented the Hong Kong team.
+				<a href="extlink.html" title= "SCW"> Read More... </a>
+				</p>
+				<p id="coachpic"> <img src="http://images.china.cn/site1007/2019-04/29/ac81da17-6971-48b6-b19c-c2e60325d332.jpg" height=130px; width=120px;></p>
+			</div>
+			<div id="coach2">
+				<p id="name"> Soo Hok Lung</p>
+				<p id="intro">Soo Hok Lung is a young and passionate coach who has been awarded best coach of the year in Hong Kong.
+				<a href="extlink.html" title= "SHL"> Read More...  </a>
+				</p>
+				<p id="coachpic"><img src="https://pingsunday.com/wp-content/uploads/zhang-jike-no-shirt.jpg" height=130px; width=120px;>
+				</p>
+			</div>
+			<div id="coach3">
+				<p id="name"> Lau Chun Fung </p>
+				<p id="intro"> Lau Chun Fung is a former national team player and is skillful in training children.
+				<a href="extlink.html" title= "LCF"> Read More...</a>
+				</p>
+				<p id="coachpic"> <img src="https://www.butterfly-global.com/en/sponsoring/item/harimoto-tomokazu.jpg" height=130px; width=120px;>
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+<h4 style="clear: left"> More information </h4>
+	<div>
+		<a href="extlink.html" title="Read More">Read More about our classes</a>
+	</div>	
+	<div>
+		<img src="https://www.clipartbest.com/cliparts/pT5/XGj/pT5XGjbbc.png" height=250px width=300px align="left">
+	</div>
+
+
 </body>
 </html>

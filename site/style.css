@@ -1,0 +1,24 @@
+h1{
+	font-size: 4em;
+	font-family: Ariel, sans-serif;
+	font-weight: bold;
+	color: orange;
+	text-align: center;
+	}
+h1 div{
+	font-size: 0.5em;
+	font-family: default;
+	font-weight: 0;
+	color: white;
+	}
+#box {
+		background-color: transparent;
+		margin-top:0 margin-bottom:30px;
+	}
+
+#section2 {
+	background-color: transparent;
+	width: 100%;
+	padding: 15px;
+}
+
