@@ -1,0 +1,215 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+@media (max-width: 767px){
+
+	.section{
+
+		align-items: center;
+	}
+
+	#heading {
+		width: 100%;
+		height: 50px;
+		color: black;
+		background-color: white;
+		margin: 20px;
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 30px;
+	}
+
+	.box, .box2 {
+		width: 100%;
+		float: left;
+		background-color: white;
+	}
+
+
+	.boxhead {
+		width: 100%;
+		margin: 10px;
+		margin-top:0;
+	}
+
+	.subbox {
+		float: right;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		color: black;
+		background-color: yellow;
+		width: 33%;
+		border: 1px solid black;
+	}
+
+	.boxtext {
+		background-color: pink;
+		margin: 10px;
+		padding: 10px;
+		padding-top:0;
+		border: 2px solid black;
+	}
+
+	.boxtext div {
+		clear: right;
+		color: navy;
+
+	}
+
+	#text {
+		clear: right;
+		color: navy;
+		padding-top: 5px;
+
+	}
+
+}
+
+@media( min-width: 992px){
+
+	.section{
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+	}
+
+	#heading {
+		width: 100%;
+		height: 50px;
+		color: black;
+		background-color: white;
+		margin: 20px;
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 30px;
+	}
+
+	.box, .box2 {
+		width: 33%;
+		float: left;
+		background-color: transparent;
+		color: navy;
+
+	}
+
+	.boxhead {
+		width: 100%;
+		margin: 10px;
+		margin-top:0;
+	}
+
+	.subbox {
+		float: right;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		color: black;
+		background-color: yellow;
+		width: 33%;
+		border: 1px solid black;
+	}
+
+	.boxtext {
+		background-color: pink;
+		margin: 10px;
+		padding: 10px;
+		padding-top:0;
+		border: 2px solid black;		
+
+	}
+
+	.boxtext div {
+		clear: right;
+		color: navy;
+
+	}
+
+	#text {
+		clear: right;
+		color: navy;
+		padding-top: 5px;
+
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	.section{
+
+		align-items: center;
+	}
+
+	#heading {
+		width: 100%;
+		height: 50px;
+		color: black;
+		background-color: white;
+		margin: 20px;
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 30px;
+	}
+
+	.box {
+		width: 50%;
+		float: left;
+		background-color: transparent;
+		color: navy;
+
+	}
+
+	.box2 {
+		width: 100%;
+		float: left;
+		background-color: transparent;
+		color: navy;
+		margin-top: 10px;
+
+	}
+
+	.boxhead {
+		width: 100%;
+		margin: 10px;
+		margin-top:0;
+	}
+
+
+	.subbox {
+		float: right;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		color: black;
+		background-color: yellow;
+		width: 33%;
+		border: 1px solid black;
+	}
+
+	#tablet {
+		width: 20%;
+	}
+
+	.boxtext {
+		background-color: pink;
+		margin: 10px;
+		padding: 10px;
+		padding-top:0;
+		border: 2px solid black;
+
+	}
+
+	#text {
+		clear: right;
+		color: navy;
+		padding-top: 5px;
+
+	}
+
+
+}
+
+
